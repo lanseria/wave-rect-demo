@@ -1,39 +1,21 @@
-# Arco Uno Basic Template
+# Wave Rect Demo
+
+![Alt text](docs/demo.jpg)
+
+这是一个使用Vue.js和CSS编写的Wave样式例子，通过预览网址可以查看效果。该项目具有以下功能：
+This is an example of a wave-style component written using Vue.js and CSS. You can see the effect by visiting the preview URL. The project offers the following functionalities:
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
+- 动画效果的波浪：通过精心设计的动画效果，呈现出生动的波浪动态效果。
+- Animated waves: The carefully designed animation creates a dynamic wave effect.
 
-- 🗂 [File based routing](./src/pages)
+- 可调整高度的百分比：根据所设定的百分比，可以自由调整波浪的高度，使其适应不同的需求。
+- Adjustable height based on percentage: You can adjust the height of the wave based on a specified percentage, allowing it to fit various requirements.
 
-- 📦 [Components auto importing](./src/components)
-
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
-
-- 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
-- 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
-
-- ✅ Use [Arco UI](https://arco.design/vue/docs/start) UI Framework
-
-- 🦾 TypeScript, of course
-
-- ☁️ Deploy on Netlify, zero-config
-
-## Try it now!
-
-> arco-uno-basic-template requires Node >=14.18
+- 简洁明了的Vue.js代码：项目使用Vue.js框架编写，代码简洁易懂。这意味着您可以将这段代码轻松迁移至其他任何框架，以满足您的项目需求。
+- Clean and concise Vue.js code: The project is written using Vue.js framework, and the code is clean and easy to understand. This means you can easily migrate this code to any other framework to meet your project needs.
 
 ### GitHub Template
 
 [Create a repo from this template on GitHub](https://github.com/lanseria/arco-uno-basic-template/generate).
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-```bash
-npx degit lanseria/arco-uno-basic-template my-arco-uno-app
-cd my-arco-uno-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
-```
